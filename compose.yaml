@@ -1,0 +1,6 @@
+services:
+  pythonsocketschatroom:
+    image: pythonsocketschatroom
+    build:
+      context: .
+      dockerfile: ./Dockerfile
